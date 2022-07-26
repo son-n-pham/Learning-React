@@ -8,3 +8,4 @@ Tool to create my first React App.
 ```react
 npx create-react-app react-complete-guide
 ```
+Build an app
