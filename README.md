@@ -19,4 +19,12 @@ Build an app
 
 ![image](https://user-images.githubusercontent.com/79841341/181276606-a8684f7c-06ba-4701-bab4-754c39707143.png)
 
-vs
+## Reusing components
+
+![image](https://user-images.githubusercontent.com/79841341/184497102-8b4e3ac4-f1d8-401d-b777-cd74f7fa9b83.png)
+
+## Link components to main index.js
+
+To link the new components, we use export and import
+
+![image](https://user-images.githubusercontent.com/79841341/184497477-422c169f-d66a-4908-af75-218705bd5f77.png)
