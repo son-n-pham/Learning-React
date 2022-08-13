@@ -28,3 +28,16 @@ Build an app
 To link the new components, we use export and import
 
 ![image](https://user-images.githubusercontent.com/79841341/184497477-422c169f-d66a-4908-af75-218705bd5f77.png)
+
+## Passing properties from parent to child
+
+Props is used to do so.
+
+![image](https://user-images.githubusercontent.com/79841341/184497661-d4b0b6ae-c693-4953-9391-4c97ece250a1.png)
+
+![image](https://user-images.githubusercontent.com/79841341/184497675-3d81b6c0-45db-41f2-b37c-0b3f839d0a0f.png)
+
+This can be done with the below in index.js
+
+![image](https://user-images.githubusercontent.com/79841341/184497733-71a97945-fb68-4be5-9908-d0f558ec456d.png)
+
