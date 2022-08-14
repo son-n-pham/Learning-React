@@ -59,4 +59,5 @@ This can be done with the below in index.js
 
 ## Component Lifecycle
 
-![image](https://user-images.githubusercontent.com/79841341/184532024-08958b69-d94a-4cfc-83aa-81e3abd397db.png)
+![image](https://user-images.githubusercontent.com/79841341/184532844-d228c6e9-82fc-4c5b-b69d-a1ae77256c57.png)
+
