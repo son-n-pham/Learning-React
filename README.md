@@ -61,3 +61,6 @@ This can be done with the below in index.js
 
 ![image](https://user-images.githubusercontent.com/79841341/184532844-d228c6e9-82fc-4c5b-b69d-a1ae77256c57.png)
 
+## Event Handler
+
+![image](https://user-images.githubusercontent.com/79841341/184541532-237c95ef-93aa-4507-b564-805e0ef6a0fd.png)
