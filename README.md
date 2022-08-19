@@ -64,3 +64,11 @@ This can be done with the below in index.js
 ## Event Handler
 
 ![image](https://user-images.githubusercontent.com/79841341/184541532-237c95ef-93aa-4507-b564-805e0ef6a0fd.png)
+
+To add event handler such as the above to an element, we just add it/them as (a) prop(s), then pass the callback to that event handler. Below is an example of the codes. It is the Uncontrolled as React world does not know the input. If it needs to update, it has to reach out to DOM.
+
+![image](https://user-images.githubusercontent.com/79841341/185620620-25240004-e473-4860-bac4-c7cc90edc535.png)
+
+The solution for it is to re-factor to update the state term, which will allow React world to know the input value all the time without accessing to DOM. Below is the solution, which updated the state of class SearchBar.
+
+![image](https://user-images.githubusercontent.com/79841341/185623552-904fa0ae-a543-4bb0-8200-b57fbf5038bd.png)
