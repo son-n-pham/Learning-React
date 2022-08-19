@@ -91,7 +91,9 @@ What can we do to pass state term back to App? Solution is that App send its met
 
 ![image](https://user-images.githubusercontent.com/79841341/185631927-2e05dcad-6941-4c74-a94c-29ab0eba9d48.png)
 
-https://funix.udemy.com/course/the-complete-javascript-course/learn/lecture/22648507#overview
+Normal function needs to have the object calling it for this keyword to be defined. Arrow function can just automatically take the surrounding where the function is called for 'this' keyword.
+
+![image](https://user-images.githubusercontent.com/79841341/185650215-e9a34983-2190-4989-bff2-b2704e5447f8.png)
 
 
 
