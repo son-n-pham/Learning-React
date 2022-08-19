@@ -72,3 +72,26 @@ To add event handler such as the above to an element, we just add it/them as (a)
 The solution for it is to re-factor to update the state term, which will allow React world to know the input value all the time without accessing to DOM. Below is the solution, which updated the state of class SearchBar.
 
 ![image](https://user-images.githubusercontent.com/79841341/185623552-904fa0ae-a543-4bb0-8200-b57fbf5038bd.png)
+
+![image](https://user-images.githubusercontent.com/79841341/185623690-2b6d3594-7882-4c9e-9efd-2bb065d086b4.png)
+
+## Passing props from children back to parent
+
+So far, we can easily pass props from parent to children such App passes props to SearchBar.
+
+![image](https://user-images.githubusercontent.com/79841341/185623926-27ba7426-4801-4c9c-913c-2a226189cedf.png)
+
+What can we do to pass state term back to App? Solution is that App send its method to children via props, and that method can update back to App whenever it is run in children.
+
+![image](https://user-images.githubusercontent.com/79841341/185624216-b94565d9-2a79-4e6f-9c00-1a15d1c030d7.png)
+
+### A bit review of this keyword
+
+![image](https://user-images.githubusercontent.com/79841341/185629916-47ee10c1-6944-40b5-9c87-a80a7337c702.png)
+
+![image](https://user-images.githubusercontent.com/79841341/185631927-2e05dcad-6941-4c74-a94c-29ab0eba9d48.png)
+
+https://funix.udemy.com/course/the-complete-javascript-course/learn/lecture/22648507#overview
+
+
+
